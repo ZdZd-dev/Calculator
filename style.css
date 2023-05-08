@@ -1,0 +1,42 @@
+body {
+    background-color: #36454F;
+    min-width: 300px;
+    margin: 3px;
+}
+
+#screen {
+    background-color: #B9FA07;
+    border: 10px solid #789c14;
+    height: 80px;
+}
+
+#buttons {
+    width: 25%;
+}
+
+#Delete {
+    width: 25%;
+}
+
+#Clear {
+    width: 11.5%;
+}
+
+#action {
+width: 100%;
+}
+
+.calculator {
+    margin-top: 20px;
+    float: left;
+}
+
+.part1 {
+    width: 80%;
+    float: left;
+}
+
+.part2 {
+    width: 11%;
+    float: left;
+}

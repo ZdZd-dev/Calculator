@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="screen">
+<h1 id="display"></h1>
+    </div>
+    
+    <div class="calculator">
+<center>
+    <div class="part1">
+    <button class="num7" id="buttons" onclick="addNumber7()">7</button>
+    <button class="num8" id="buttons" onclick="addNumber8()">8</button>
+    <button class="num9" id="buttons" onclick="addNumber9()">9</button>
+
+
+    <button class="num4" id="buttons" onclick="addNumber4()">4</button>
+    <button class="num5" id="buttons" onclick="addNumber5()">5</button>
+    <button class="num6" id="buttons" onclick="addNumber6()">6</button>
+
+    <button id="buttons" class="num1" onclick="addNumber1()">1</button>
+    <button class="num2" id="buttons" onclick="addNumber2()">2</button>
+    <button class="num3" id="buttons" onclick="addNumber3()">3</button>
+
+    <button id="buttons" class="num0" onclick="addNumber0()">0</button>
+
+    <button id="Delete" class="delete" onclick="deleteN()">DEL</button>
+    <button id="Clear" onclick="clearAll()">C</button>
+    <button id="Clear" class="equals" onclick="equals()">=</button>
+    </div>
+</center>
+<div class="part2">
+<button id="action" class="add" onclick="Addition()">+</button>
+<button id="action" class="minus" onclick="Subtraction()">-</button>
+<button id="action" class="times" onclick="Multiplication()">*</button>
+<button id="action" class="divide" onclick="Division()">/</button>
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
